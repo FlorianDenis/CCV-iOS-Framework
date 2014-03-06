@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1A6FF6E018C8D77D0055E487 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A6FF6E118C8D77D0055E487 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				1A6FF6E618C8D78B0055E487 /* ShellScript */,
+			);
+			dependencies = (
+				1A6FF6E518C8D7840055E487 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1A6FF68D18C8D64B0055E487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6FF68C18C8D64B0055E487 /* Foundation.framework */; };
+		1A6FF6C918C8D6820055E487 /* ccv_algebra.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6B318C8D6820055E487 /* ccv_algebra.c */; };
+		1A6FF6CA18C8D6820055E487 /* ccv_basic.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6B418C8D6820055E487 /* ccv_basic.c */; };
+		1A6FF6CB18C8D6820055E487 /* ccv_bbf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6B518C8D6820055E487 /* ccv_bbf.c */; };
+		1A6FF6CC18C8D6820055E487 /* ccv_cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6B618C8D6820055E487 /* ccv_cache.c */; };
+		1A6FF6CD18C8D6820055E487 /* ccv_classic.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6B718C8D6820055E487 /* ccv_classic.c */; };
+		1A6FF6CE18C8D6820055E487 /* ccv_daisy.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6B818C8D6820055E487 /* ccv_daisy.c */; };
+		1A6FF6CF18C8D6820055E487 /* ccv_dpm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6B918C8D6820055E487 /* ccv_dpm.c */; };
+		1A6FF6D018C8D6820055E487 /* ccv_ferns.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6BA18C8D6820055E487 /* ccv_ferns.c */; };
+		1A6FF6D118C8D6820055E487 /* ccv_icf.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6BB18C8D6820055E487 /* ccv_icf.c */; };
+		1A6FF6D218C8D6820055E487 /* ccv_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6BD18C8D6820055E487 /* ccv_io.c */; };
+		1A6FF6D318C8D6820055E487 /* ccv_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6BE18C8D6820055E487 /* ccv_memory.c */; };
+		1A6FF6D418C8D6820055E487 /* ccv_mser.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6BF18C8D6820055E487 /* ccv_mser.c */; };
+		1A6FF6D518C8D6820055E487 /* ccv_numeric.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6C018C8D6820055E487 /* ccv_numeric.c */; };
+		1A6FF6D618C8D6820055E487 /* ccv_resample.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6C118C8D6820055E487 /* ccv_resample.c */; };
+		1A6FF6D718C8D6820055E487 /* ccv_sift.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6C218C8D6820055E487 /* ccv_sift.c */; };
+		1A6FF6D818C8D6820055E487 /* ccv_sparse_coding.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6C318C8D6820055E487 /* ccv_sparse_coding.c */; };
+		1A6FF6D918C8D6820055E487 /* ccv_swt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6C418C8D6820055E487 /* ccv_swt.c */; };
+		1A6FF6DA18C8D6820055E487 /* ccv_tld.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6C518C8D6820055E487 /* ccv_tld.c */; };
+		1A6FF6DB18C8D6820055E487 /* ccv_transform.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6C618C8D6820055E487 /* ccv_transform.c */; };
+		1A6FF6DC18C8D6820055E487 /* ccv_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A6FF6C718C8D6820055E487 /* ccv_util.c */; };
+		1A6FF6DF18C8D6DC0055E487 /* ccv.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6FF6C818C8D6820055E487 /* ccv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A6FF6E418C8D7840055E487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6FF68118C8D64B0055E487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6FF68818C8D64B0055E487;
+			remoteInfo = ccv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A6FF68718C8D64B0055E487 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A6FF68918C8D64B0055E487 /* libccv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libccv.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6FF68C18C8D64B0055E487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A6FF6B318C8D6820055E487 /* ccv_algebra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_algebra.c; path = ccv/lib/ccv_algebra.c; sourceTree = "<group>"; };
+		1A6FF6B418C8D6820055E487 /* ccv_basic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_basic.c; path = ccv/lib/ccv_basic.c; sourceTree = "<group>"; };
+		1A6FF6B518C8D6820055E487 /* ccv_bbf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_bbf.c; path = ccv/lib/ccv_bbf.c; sourceTree = "<group>"; };
+		1A6FF6B618C8D6820055E487 /* ccv_cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_cache.c; path = ccv/lib/ccv_cache.c; sourceTree = "<group>"; };
+		1A6FF6B718C8D6820055E487 /* ccv_classic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_classic.c; path = ccv/lib/ccv_classic.c; sourceTree = "<group>"; };
+		1A6FF6B818C8D6820055E487 /* ccv_daisy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_daisy.c; path = ccv/lib/ccv_daisy.c; sourceTree = "<group>"; };
+		1A6FF6B918C8D6820055E487 /* ccv_dpm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_dpm.c; path = ccv/lib/ccv_dpm.c; sourceTree = "<group>"; };
+		1A6FF6BA18C8D6820055E487 /* ccv_ferns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_ferns.c; path = ccv/lib/ccv_ferns.c; sourceTree = "<group>"; };
+		1A6FF6BB18C8D6820055E487 /* ccv_icf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_icf.c; path = ccv/lib/ccv_icf.c; sourceTree = "<group>"; };
+		1A6FF6BC18C8D6820055E487 /* ccv_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccv_internal.h; path = ccv/lib/ccv_internal.h; sourceTree = "<group>"; };
+		1A6FF6BD18C8D6820055E487 /* ccv_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_io.c; path = ccv/lib/ccv_io.c; sourceTree = "<group>"; };
+		1A6FF6BE18C8D6820055E487 /* ccv_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_memory.c; path = ccv/lib/ccv_memory.c; sourceTree = "<group>"; };
+		1A6FF6BF18C8D6820055E487 /* ccv_mser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_mser.c; path = ccv/lib/ccv_mser.c; sourceTree = "<group>"; };
+		1A6FF6C018C8D6820055E487 /* ccv_numeric.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_numeric.c; path = ccv/lib/ccv_numeric.c; sourceTree = "<group>"; };
+		1A6FF6C118C8D6820055E487 /* ccv_resample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_resample.c; path = ccv/lib/ccv_resample.c; sourceTree = "<group>"; };
+		1A6FF6C218C8D6820055E487 /* ccv_sift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_sift.c; path = ccv/lib/ccv_sift.c; sourceTree = "<group>"; };
+		1A6FF6C318C8D6820055E487 /* ccv_sparse_coding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_sparse_coding.c; path = ccv/lib/ccv_sparse_coding.c; sourceTree = "<group>"; };
+		1A6FF6C418C8D6820055E487 /* ccv_swt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_swt.c; path = ccv/lib/ccv_swt.c; sourceTree = "<group>"; };
+		1A6FF6C518C8D6820055E487 /* ccv_tld.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_tld.c; path = ccv/lib/ccv_tld.c; sourceTree = "<group>"; };
+		1A6FF6C618C8D6820055E487 /* ccv_transform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_transform.c; path = ccv/lib/ccv_transform.c; sourceTree = "<group>"; };
+		1A6FF6C718C8D6820055E487 /* ccv_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccv_util.c; path = ccv/lib/ccv_util.c; sourceTree = "<group>"; };
+		1A6FF6C818C8D6820055E487 /* ccv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccv.h; path = ccv/lib/ccv.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6FF68618C8D64B0055E487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6FF68D18C8D64B0055E487 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6FF68018C8D64B0055E487 = {
+			isa = PBXGroup;
+			children = (
+				1A6FF6B218C8D6770055E487 /* Source */,
+				1A6FF68B18C8D64B0055E487 /* Frameworks */,
+				1A6FF68A18C8D64B0055E487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6FF68A18C8D64B0055E487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6FF68918C8D64B0055E487 /* libccv.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6FF68B18C8D64B0055E487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A6FF68C18C8D64B0055E487 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A6FF6B218C8D6770055E487 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1A6FF6C818C8D6820055E487 /* ccv.h */,
+				1A6FF6BC18C8D6820055E487 /* ccv_internal.h */,
+				1A6FF6B318C8D6820055E487 /* ccv_algebra.c */,
+				1A6FF6B418C8D6820055E487 /* ccv_basic.c */,
+				1A6FF6B518C8D6820055E487 /* ccv_bbf.c */,
+				1A6FF6B618C8D6820055E487 /* ccv_cache.c */,
+				1A6FF6B718C8D6820055E487 /* ccv_classic.c */,
+				1A6FF6B818C8D6820055E487 /* ccv_daisy.c */,
+				1A6FF6B918C8D6820055E487 /* ccv_dpm.c */,
+				1A6FF6BA18C8D6820055E487 /* ccv_ferns.c */,
+				1A6FF6BB18C8D6820055E487 /* ccv_icf.c */,
+				1A6FF6BD18C8D6820055E487 /* ccv_io.c */,
+				1A6FF6BE18C8D6820055E487 /* ccv_memory.c */,
+				1A6FF6BF18C8D6820055E487 /* ccv_mser.c */,
+				1A6FF6C018C8D6820055E487 /* ccv_numeric.c */,
+				1A6FF6C118C8D6820055E487 /* ccv_resample.c */,
+				1A6FF6C218C8D6820055E487 /* ccv_sift.c */,
+				1A6FF6C318C8D6820055E487 /* ccv_sparse_coding.c */,
+				1A6FF6C418C8D6820055E487 /* ccv_swt.c */,
+				1A6FF6C518C8D6820055E487 /* ccv_tld.c */,
+				1A6FF6C618C8D6820055E487 /* ccv_transform.c */,
+				1A6FF6C718C8D6820055E487 /* ccv_util.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A6FF6DE18C8D6D80055E487 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6FF6DF18C8D6DC0055E487 /* ccv.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A6FF68818C8D64B0055E487 /* ccv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6FF6AC18C8D64B0055E487 /* Build configuration list for PBXNativeTarget "ccv" */;
+			buildPhases = (
+				1A6FF68518C8D64B0055E487 /* Sources */,
+				1A6FF68618C8D64B0055E487 /* Frameworks */,
+				1A6FF68718C8D64B0055E487 /* CopyFiles */,
+				1A6FF6DE18C8D6D80055E487 /* Headers */,
+				1A6FF6E718C8DA6E0055E487 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ccv;
+			productName = ccv;
+			productReference = 1A6FF68918C8D64B0055E487 /* libccv.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6FF68118C8D64B0055E487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Florian Denis";
+			};
+			buildConfigurationList = 1A6FF68418C8D64B0055E487 /* Build configuration list for PBXProject "ccv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A6FF68018C8D64B0055E487;
+			productRefGroup = 1A6FF68A18C8D64B0055E487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6FF68818C8D64B0055E487 /* ccv */,
+				1A6FF6E018C8D77D0055E487 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6FF6E618C8D78B0055E487 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
+		};
+		1A6FF6E718C8DA6E0055E487 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6FF68518C8D64B0055E487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6FF6DC18C8D6820055E487 /* ccv_util.c in Sources */,
+				1A6FF6DB18C8D6820055E487 /* ccv_transform.c in Sources */,
+				1A6FF6D818C8D6820055E487 /* ccv_sparse_coding.c in Sources */,
+				1A6FF6D718C8D6820055E487 /* ccv_sift.c in Sources */,
+				1A6FF6D118C8D6820055E487 /* ccv_icf.c in Sources */,
+				1A6FF6CB18C8D6820055E487 /* ccv_bbf.c in Sources */,
+				1A6FF6CF18C8D6820055E487 /* ccv_dpm.c in Sources */,
+				1A6FF6CE18C8D6820055E487 /* ccv_daisy.c in Sources */,
+				1A6FF6D318C8D6820055E487 /* ccv_memory.c in Sources */,
+				1A6FF6D618C8D6820055E487 /* ccv_resample.c in Sources */,
+				1A6FF6C918C8D6820055E487 /* ccv_algebra.c in Sources */,
+				1A6FF6DA18C8D6820055E487 /* ccv_tld.c in Sources */,
+				1A6FF6CA18C8D6820055E487 /* ccv_basic.c in Sources */,
+				1A6FF6D018C8D6820055E487 /* ccv_ferns.c in Sources */,
+				1A6FF6D918C8D6820055E487 /* ccv_swt.c in Sources */,
+				1A6FF6CC18C8D6820055E487 /* ccv_cache.c in Sources */,
+				1A6FF6D418C8D6820055E487 /* ccv_mser.c in Sources */,
+				1A6FF6D518C8D6820055E487 /* ccv_numeric.c in Sources */,
+				1A6FF6D218C8D6820055E487 /* ccv_io.c in Sources */,
+				1A6FF6CD18C8D6820055E487 /* ccv_classic.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6FF6E518C8D7840055E487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6FF68818C8D64B0055E487 /* ccv */;
+			targetProxy = 1A6FF6E418C8D7840055E487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A6FF6AA18C8D64B0055E487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-ffast-math";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A6FF6AB18C8D64B0055E487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-ffast-math";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6FF6AD18C8D64B0055E487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ccv.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = Headers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1A6FF6AE18C8D64B0055E487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ccv.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = Headers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1A6FF6E218C8D77D0055E487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A6FF6E318C8D77D0055E487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6FF68418C8D64B0055E487 /* Build configuration list for PBXProject "ccv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6FF6AA18C8D64B0055E487 /* Debug */,
+				1A6FF6AB18C8D64B0055E487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6FF6AC18C8D64B0055E487 /* Build configuration list for PBXNativeTarget "ccv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6FF6AD18C8D64B0055E487 /* Debug */,
+				1A6FF6AE18C8D64B0055E487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6FF6E118C8D77D0055E487 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6FF6E218C8D77D0055E487 /* Debug */,
+				1A6FF6E318C8D77D0055E487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6FF68118C8D64B0055E487 /* Project object */;
+}
